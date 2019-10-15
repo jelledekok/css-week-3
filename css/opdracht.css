@@ -8,6 +8,7 @@
 	background-color: white;
 	border: 10px;
 	font-size: 10px;
+	background-image: url(../img/banner_bg.png);
 	}
 
 .1{	grid-column: 1/5;
