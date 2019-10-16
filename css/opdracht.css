@@ -1,4 +1,26 @@
-.container{
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+.kop{
+	display: inline-grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px;
+	grid-template-rows: 20px 
+	
+
+	background-color: white;
+	border: 10px;
+	font-size: 10px;
+	background-image: url(../img/header_bg.png);
+	}
+
+
+
+
+.midden{
 	display: inline-grid;
 	grid-template-columns: auto auto auto auto;
 	grid-gap: 10px;
@@ -11,19 +33,5 @@
 	background-image: url(../img/banner_bg.png);
 	}
 
-.1{	grid-column: 1/5;
-}
-.2{	grid-column: 1/3;
-}
-.3{	grid-column: 3/4;
-}
-.4{	grid-column: 3/4;
-}
-.5{	grid-column: 1/2;
-}
-.6{	grid-column: 2/3;
-}
-.7{	grid-row: 3/5;
-	grid-column: 4/5;
-}
 
+}
