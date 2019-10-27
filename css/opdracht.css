@@ -6,51 +6,85 @@ body{
 
 .kop{
 	display: inline-grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: auto auto auto;
 	grid-gap: 10px;
-	grid-template-rows: 20px 
+	grid-template-rows: 10px; 
 	
-
+	padding: 25px;
 	background-color: white;
 	border: 10px;
 	font-size: 10px;
 	background-image: url(../img/header_bg.png);
-	width: 1007px;
+	width: 1100px;
+	.pages{
+		grid-column: 2/4;
+	}
+	.logo{
+		grid-column: 1/2;
+	}
 	}
 
 
-.plaatje{
+.kern1{
 		display: inline-grid;
 	grid-template-columns: auto auto auto;
 	grid-gap: 10px;
 	/*grid-template-rows: 1px 1px 1px;*/
 	
-
+	padding: 25px;
 	background-color: white;
 	border: 10px;
 	font-size: 10px;
 	background-image: url(../img/banner_bg.png);
-	width: 1007px;
-	.lang{	grid-column: 1/3;
+	width: 1100px;
+	.img{	grid-column: 1/3;
+	}
+	.text{	grid-column: 3/4;
+
 }
 		}
 
 
-.midden{
+.kern2{
 	display: inline-grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: auto auto auto;
 	grid-gap: 10px;
 	/*grid-template-rows: 1px 1px 1px;*/
 	
-
+	padding: 25px;
 	background-color: white;
 	border: 10px;
 	font-size: 10px;
-	background-image: url(../img/banner_bg.png);
+	
 		margin:10px;
-	width: 1007px;
+	width: 1100px;
+	.img1{	grid-column: 1/2;
+	}
+	.img2{	grid-column: 2/3;
+}
+.img3{	grid-column: 3/4;
+	}
+	.text1{	grid-column: 1/2;
+}
+.text2{	grid-column: 2/3;
+	}
+	.text3{	grid-column: 3/4;
+}
 	
 	}
 
+
+
+.footer{
+
+padding: 25px;
+padding-left: 150px;
+	background-color: white;
+	border: 10px;
+	font-size: 10px;
+	
+		margin:10px;
+	width: 950px;
+	background-image: url(../img/banner_bg.png);
 
 }
