@@ -6,7 +6,7 @@ body{
 
 .kop{
 	display: inline-grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto auto auto auto auto auto auto;
 	grid-gap: 10px;
 	grid-template-rows: 10px; 
 	
@@ -16,11 +16,30 @@ body{
 	font-size: 10px;
 	background-image: url(../img/header_bg.png);
 	width: 1100px;
-	.pages{
-		grid-column: 2/4;
-	}
+	
 	.logo{
 		grid-column: 1/2;
+	}
+	.home{
+		grid-column: 2/3;
+	}
+	.auto{
+		grid-column: 2/3;
+	}
+	.kleding{
+		grid-column: 2/3;
+	}
+	.blog{
+		grid-column: 2/3;
+	}
+	.galery{
+		grid-column: 2/3;
+	}
+	.shortcodes{
+		grid-column: 2/3;
+	}
+	.contact{
+		grid-column: 2/3;
 	}
 	}
 
