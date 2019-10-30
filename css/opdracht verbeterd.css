@@ -4,13 +4,17 @@ body{
 }
 .grid-container{
 	width: 1100px;
-	
+		
 }
 
 .achtergrond-kop{
 	background-image: url(../img/header_bg.png);
-	display: inline-grid;
+display: inline-grid;
 	grid-template-columns: auto auto auto;
+		width: 1100px;
+		padding: 10px;
+		margin: 10px;
+		grid-gap: 5px;
 } 
 
 .img{
@@ -18,9 +22,53 @@ body{
 }
 .menu{
 	grid-column: 2/4;
+	display: inline-grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
 }
+ul li{
+	margin-right:20px;
+
+	display: inline;
+}
+
+ul>li>a{
+	text-decoration: none;
+}
+
 .achtergrond-kern1{
 	background-image: url(../img/banner_bg.png);
 	display: inline-grid;
 	grid-template-columns: auto auto auto;
+		width: 1100px;
+		padding: 10px;
+		margin: 10px;
+		padding-bottom: 75px;
+			grid-gap: 50px;
+}
+.achtergrond-kern2{
+	display: inline-grid;
+	grid-template-columns: auto auto auto;
+		width: 1100px;
+		padding: 10px;
+		margin: 10px;
+}
+.img1{
+	grid-column: 1/2;
+}
+.img2{
+	grid-column: 2/3;
+}
+.img3{
+	grid-column: 3/4;
+}
+.footer{
+	background-image: url(../img/footer_bg.png);
+	display: inline-grid;
+	grid-template-columns: auto auto auto;
+	width: 1100px;
+	padding: 10px;
+		margin: 10px;
+}
+.naam{
+	grid-column: 2/4;
 }
