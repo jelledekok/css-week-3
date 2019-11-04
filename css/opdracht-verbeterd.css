@@ -22,9 +22,9 @@ display: inline-grid;
 }
 .menu{
 	grid-column: 2/4;
-	display: inline-grid;
-	grid-template-columns: auto auto auto auto auto auto auto;
-}
+	/*display: inline-grid;
+	grid-template-columns: auto auto auto auto auto auto auto;*/
+}	
 ul li{
 	margin-right:20px;
 
@@ -36,6 +36,7 @@ ul>li>a{
 }
 
 .achtergrond-kern1{
+	text-decoration-color: white;
 	background-image: url(../img/banner_bg.png);
 	display: inline-grid;
 	grid-template-columns: auto auto auto;
@@ -71,5 +72,11 @@ ul>li>a{
 		
 }
 .naam{
+	text-decoration-color: white;
 	grid-column: 2/4;
+}
+p{color: white;}
+
+div.achtergrond-kern1 h2{
+	color:white;
 }
